@@ -1,0 +1,27 @@
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: $white;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+  @include mq($bkp-l) {
+    padding: 10px 30px;
+  }
+  & + .btn {
+    @include mq($bkp-l) {
+      margin-left: 10px;
+    }
+  }
+}
+
+@each $result, $color in $results {
+  .#{$result} {
+    background-color: $color;
+  }
+  .#{$result}:hover {
+    background-color: lighten($color, 15%);
+    transition: background-color 1s ease;
+  }
+}

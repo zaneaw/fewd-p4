@@ -1,0 +1,53 @@
+// Font
+* {
+  font-family: 'Lato', sans-serif;
+  color: $dkgray;
+  box-sizing: border-box;
+}
+
+.headline-primary {
+  color: $teal;
+  margin-left: 10px;
+}
+
+.headline-secondary, 
+.blockquote {
+  font-weight: $light-font;
+}
+
+.headline-secondary {
+  color: $dkgray;
+}
+
+.link {
+  font-weight: $heavy-font;
+  color: $ltblue;
+}
+
+.blockquote {
+  font: {
+    size: 1.5em;
+    style: italic; }
+  border: {
+    left: 8px solid $teal;
+    radius: 5px; }
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.45em;
+}
+
+
+
+
+
+
+
+
+

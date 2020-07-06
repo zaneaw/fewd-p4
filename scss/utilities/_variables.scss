@@ -1,0 +1,34 @@
+// Color variables
+
+$dkgray: #777;
+$white: #fff;
+$ltgray: #ccc;
+$teal: #58e1c1;
+$ltblue: #51ddfc;
+$ltltblue: lighten($ltblue, 15%);
+
+
+// Media query
+
+$bkp-l: 768px;
+
+
+// Font variables
+
+$light-font: 300;
+$heavy-font: 700;
+
+
+// Button theme
+
+$results: (
+  'default': #51ddfc, 
+  'error': #e4757a, 
+  'info': #927bc1, 
+  'success': #63cc82, 
+  'warning': #fd7856
+  );
+
+
+
+

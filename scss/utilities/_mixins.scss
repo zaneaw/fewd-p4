@@ -1,0 +1,7 @@
+// Media queries
+
+@mixin mq($min-width) {
+  @media (min-width: $bkp-l) {
+    @content
+  }
+}
